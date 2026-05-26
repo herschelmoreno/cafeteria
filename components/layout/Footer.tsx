@@ -115,8 +115,8 @@ export default function Footer() {
           </ul>
           <div className="mt-2">
             <p className="font-body text-xs text-linen/40 leading-relaxed">
-              Lun–Vie: 7:30 AM – 9:00 PM<br />
-              Sáb–Dom: 8:00 AM – 11:00 PM
+              Lun–Vie: 8:00 AM – 8:00 PM<br />
+              Sáb–Dom: 9:00 AM – 10:00 PM
             </p>
           </div>
         </div>
