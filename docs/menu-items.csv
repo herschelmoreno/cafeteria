@@ -1,0 +1,21 @@
+categoria,nombre,descripcion,precio,insigna
+Café Expreso,Espresso Doble,"Doble extracción de granos de origen único, tostado oscuro con notas de cacao y frutos secos. Intenso y aterciopelado.",18.00,Popular
+Café Expreso,Latte de Vainilla,"Espresso suave con leche vaporizada sedosa y jarabe de vainilla de Madagascar. Coronado con microespuma de leche.",28.00,Favorito de la casa
+Café Expreso,Cappuccino Clásico,"Un tercio espresso, un tercio leche caliente y un tercio espuma densa. La proporción perfecta de siempre.",25.00,Popular
+Café Expreso,Macchiato de Caramelo,"Espresso marcado con leche espumada y caramelo artesanal en espiral. Dulce, intenso y deliciosamente cremoso.",32.00,Nuevo
+Café Expreso,Flat White,"Doble ristretto con leche microespumada al estilo australiano. Más concentrado que un latte, más suave que un espresso.",30.00,Favorito de la casa
+Pasteles,Croissant de Mantequilla,"Masa hojaldrada de fermentación lenta con mantequilla francesa AOP. Crujiente por fuera y aireada por dentro.",18.00,Popular
+Pasteles,Brownie de Chocolate Belga,"Denso y húmedo elaborado con chocolate Valrhona al 72%. Corteza crujiente, centro fundente y nueces caramelizadas.",22.00,Favorito de la casa
+Pasteles,Cheesecake de Maracuyá,"Cremosa base de queso Philadelphia sobre galleta de jengibre, cubierta con compota de maracuyá y mango fresco.",42.00,Favorito de la casa
+Pasteles,Cinnamon Roll,"Rollo de masa brioche relleno de canela y azúcar morena, bañado generosamente en glaseado de queso crema casero.",28.00,Nuevo
+Pasteles,Muffin de Arándanos,"Esponjoso muffin americano con arándanos frescos y azúcar de caña. Horneado cada mañana sin conservantes ni aditivos.",16.00,Popular
+Sanguches,Club Sándwich Clásico,"Triple piso de pan tostado con pollo a la plancha, bacon crocante, lechuga romana, tomate y mayonesa artesanal.",45.00,Popular
+Sanguches,Caprese en Ciabatta,"Ciabatta crujiente con mozzarella di bufala, tomates cherry asados, rúcula fresca y reducción de balsámico de Módena.",38.00,Favorito de la casa
+Sanguches,Pollo al Pesto con Rúcula,"Pan artesanal con pechuga a las hierbas, pesto genovés, tomates semisecos, rúcula y parmesano laminado.",42.00,
+Sanguches,Tostado de Jamón Serrano,"Pan de centeno tostado con jamón serrano 18 meses, queso manchego curado, tomate rallado y aceite de oliva virgen.",35.00,Popular
+Sanguches,Bagel de Salmón Ahumado,"Bagel de sésamo con salmón noruego, queso crema al eneldo, alcaparras, pepino y cebolla morada encurtida.",48.00,Favorito de la casa
+Bebidas Frías,Cold Brew Clásico,"Café molido en extracción fría durante 18 horas. Suave, sin acidez y con notas naturales de chocolate oscuro.",30.00,Popular
+Bebidas Frías,Frappuccino de Chocolate,"Espresso helado mezclado con chocolate artesanal y leche entera. Coronado con crema batida y virutas de cacao.",38.00,Favorito de la casa
+Bebidas Frías,Limonada de Coco y Menta,"Limonada artesanal con leche de coco, zumo de limón recién exprimido, jarabe natural y hojas de menta fresca.",26.00,Nuevo
+Bebidas Frías,Smoothie Mango y Maracuyá,"Pulpa de mango Ataulfo, maracuyá natural, leche de avena y miel de abeja. Sin azúcar añadida ni conservantes.",32.00,Popular
+Bebidas Frías,Té Helado de Durazno,"Té negro premium infusionado en frío con rodajas de durazno natural, canela y un toque de miel de flores silvestres.",24.00,

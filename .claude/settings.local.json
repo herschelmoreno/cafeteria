@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python \"C:\\\\Users\\\\pc\\\\.claude\\\\skills\\\\image-optimizer\\\\scripts\\\\optimize_image.py\" \"https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800\" --name \"club-sandwich\" --output-dir \"D:\\\\Cursos\\\\Claude\\\\proyectos\\\\cafeteria\\\\public\\\\images\")",
+      "Bash(python \"C:\\\\Users\\\\pc\\\\.claude\\\\skills\\\\image-optimizer\\\\scripts\\\\optimize_image.py\" \"https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=800\" --name \"caprese-ciabatta\" --output-dir \"D:\\\\Cursos\\\\Claude\\\\proyectos\\\\cafeteria\\\\public\\\\images\")",
+      "Bash(python \"C:\\\\Users\\\\pc\\\\.claude\\\\skills\\\\image-optimizer\\\\scripts\\\\optimize_image.py\" \"https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=800\" --name \"pollo-pesto\" --output-dir \"D:\\\\Cursos\\\\Claude\\\\proyectos\\\\cafeteria\\\\public\\\\images\")",
+      "Bash(python \"C:\\\\Users\\\\pc\\\\.claude\\\\skills\\\\image-optimizer\\\\scripts\\\\optimize_image.py\" \"https://images.pexels.com/photos/3769793/pexels-photo-3769793.jpeg?auto=compress&cs=tinysrgb&w=800\" --name \"jamon-serrano\" --output-dir \"D:\\\\Cursos\\\\Claude\\\\proyectos\\\\cafeteria\\\\public\\\\images\")",
+      "Bash(python \"C:\\\\Users\\\\pc\\\\.claude\\\\skills\\\\image-optimizer\\\\scripts\\\\optimize_image.py\" \"https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=800\" --name \"bagel-salmon\" --output-dir \"D:\\\\Cursos\\\\Claude\\\\proyectos\\\\cafeteria\\\\public\\\\images\")"
+    ]
+  }
+}
