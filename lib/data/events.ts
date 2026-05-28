@@ -29,6 +29,6 @@ export const events: Event[] = [
       "Aprende a identificar los orígenes, aromas y sabores del café peruano de la mano de nuestros baristas. Visitamos granos de Villa Rica, Chanchamayo y Cusco. Cupos limitados.",
     emoji: "☕",
     precio: "S/ 35 por persona",
-    color: "#3D5A47",
+    color: "#2A2421",
   },
 ];
