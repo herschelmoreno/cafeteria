@@ -2,7 +2,7 @@
 
 import { useState, FormEvent } from "react";
 
-type ReservationState = "idle" | "submitting" | "success";
+type ReservationState = "idle" | "submitting" | "success" | "error";
 
 const hoursOptions = [
   "8:00", "9:00", "10:00", "11:00", "12:00",
@@ -45,8 +45,16 @@ export default function ReservationSection() {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setStatus("submitting");
-    await new Promise((r) => setTimeout(r, 900));
-    setStatus("success");
+    try {
+      const res = await fetch('/api/reservaciones', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(fields),
+      });
+      setStatus(res.ok ? "success" : "error");
+    } catch {
+      setStatus("error");
+    }
   }
 
   const inputBase =
@@ -72,7 +80,25 @@ export default function ReservationSection() {
           </p>
         </div>
 
-        {status === "success" ? (
+        {status === "error" ? (
+          /* ── Error state ── */
+          <div className="bg-moss-mid/50 border border-terra/30 rounded-card p-10 text-center animate-fade-up">
+            <span className="text-6xl mb-4 block" aria-hidden="true">⚠️</span>
+            <h3 className="font-display font-bold text-2xl text-linen mb-3">
+              Algo salió mal
+            </h3>
+            <p className="font-body text-linen/70 text-base leading-relaxed max-w-md mx-auto mb-6">
+              No pudimos registrar tu reserva en este momento. Por favor intenta nuevamente
+              o contáctanos al <strong className="text-gold">+51 999 000 111</strong>.
+            </p>
+            <button
+              onClick={() => setStatus("idle")}
+              className="font-body text-sm text-linen/60 hover:text-linen underline-offset-2 hover:underline transition-colors"
+            >
+              Intentar de nuevo
+            </button>
+          </div>
+        ) : status === "success" ? (
           /* ── Success state ── */
           <div className="bg-moss-mid/50 border border-linen/20 rounded-card p-10 text-center animate-fade-up">
             <span className="text-6xl mb-4 block" aria-hidden="true">☕</span>
